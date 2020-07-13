@@ -371,7 +371,7 @@ $(BUILDDIR)/client/q_shlinux.o :  $(LINUX_DIR)/q_shlinux.c
 $(BUILDDIR)/client/vid_menu.o :   $(LINUX_DIR)/vid_menu.c
 	$(DO_CC)
 
-$(BUILDDIR)/client/vid_so.o :     $(LINUX_DIR)/vid_so.c
+$(BUILDDIR)/client/vid_so.o :     $(RPIVK_DIR)/vid_so.c
 	$(DO_CC)
 
 $(BUILDDIR)/client/snd_alsa.o :  $(LINUX_DIR)/snd_alsa.c
